@@ -1,0 +1,20 @@
+<?php 
+ $name=$_POST['name'];
+ $email=$_POST['email'];
+ $message=$_POST['message'];
+ 
+ $subject="Contact From Submission";
+ 
+ $email_body="User name: $name.\n".
+                "User email: $email.\n".
+				    "User Message: $message.\n";
+					
+ $to="jihadkhan7142@gmail.com";
+ $headers="From: $email_form \r\n";
+ $headers .="Reply-To: $email \r\n";
+ mail($to,$subject,$email_body,$headers);
+ 
+ echo "<script>alert('Message sent Succesfully.')</script>"; 
+					
+ header("Location: contact.php");
+?>

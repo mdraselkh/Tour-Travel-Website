@@ -1,0 +1,155 @@
+<html>
+<head>
+ <title>Services</title>
+  <link rel="stylesheet" type="text/css" href="style_services.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> 
+  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+   	<div class="navbar">
+   		<div class="icon">
+   		 <h3 class="logo">Tou<span>R & Tra</span>Vel</h3>
+   		</div>
+   		<div class="menu">
+   			<ul>
+   				<a href="Tour&Travel.php">HOME</a>
+   				<a href="services.php">SERVICES</a>
+   				<a href="packages.php">DESTINATION</a>
+   		     	<a href="book.php">BOOK</a>
+   		    	<a href="#gallery">GALLERY</a>
+   		    	<a href="#contact">CONTACT</a>
+   		  		<a href="#about">ABOUT&nbsp;US</a>	   				   				
+   			</ul>
+   		</div>
+
+   		<div class="search">
+   			<input class="srch" type="search" name="" placeholder="type to text">
+   			<a href="#"><button class="btn">Search</button></a>
+   		</div>
+   		
+   	</div>
+	</header>
+	
+	
+	
+  <div class="heading" style="background:url(packagebg2.jpg) no-repeat">
+   <h1>SERVICES</h1>
+  </div>
+
+
+
+
+
+
+<section class="services">
+
+
+  <h1 class="heading-title">
+        <span>S</span>
+        <span>E</span>
+        <span>R</span>
+        <span>V</span>
+        <span>I</span>
+        <span>C</span>
+        <span>E</span>
+		<span>S</span>
+    </h1>
+  
+             
+   <div class="box-container">
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bx-hotel'></i>
+      </div>
+	  
+	  <div class="title"> 
+        <h5 align="center">Accomodation Services</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>Accomodation services in the nearest hotels making your stay comfortable.</p>
+      </div>
+       
+   </div>     
+   
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bx-bus' ></i>
+      </div>
+       
+      <div class="title"> 
+        <h5 align="center">Transportation Service</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>Wherever you want to go get our safe and fast transportation services.</p>
+      </div>     
+   </div>  
+
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bxs-package' ></i>
+      </div>
+       
+      <div class="title"> 
+        <h5 align="center">Delivery Services</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>Be stress free in delivering or getting delivered anything when you're on the go.</p>
+      </div>     
+   </div>
+
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bx-food-tag'></i>
+      </div>
+       
+      <div class="title"> 
+        <h5 align="center">Catering Services</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>What's for the next meal? We got you. Enjoy your meals and rest in your vaccation.</p>
+      </div>     
+   </div>     
+   
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bx-map-alt' ></i>
+      </div>
+       
+      <div class="title"> 
+        <h5 align="center">Tour Guide Services</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>Uknown places can be adventurous but a little help from the guide won't hurt.</p>
+      </div>     
+   </div>  
+
+   <div class="boxes">
+      <div class="icon">
+        <i class='bx bxs-bell'></i>
+      </div>
+       
+      <div class="title"> 
+        <h5 align="center">Emergency Services</h5>      
+      </div> 
+        
+      <div class="description">
+         <p>Always on our customer's service our hotline and services are available.</p>
+      </div>     
+   </div>
+   
+   </div>
+ 
+ </section>
+ 
+</body>
+</html>

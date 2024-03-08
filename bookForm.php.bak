@@ -1,0 +1,52 @@
+<?php 
+   
+ include 'databaseConnect.php';
+   $name="";
+             $email="";
+             $phone="";
+             $address="";
+             $location="";
+             $guests="";
+             $arrivals="";
+             $leaving="";
+   
+   
+   
+   $name=$_POST['name'];
+   $email=$_POST['email'];
+   $phone=$_POST['phone'];
+   $address=$_POST['address'];
+   $location=$_POST['location'];
+   $guests=$_POST['guests'];
+   $arrivals=$_POST['arrivals'];
+   $leaving=$_POST['leaving'];
+   
+   
+   
+       $qry="INSERT INTO book_table(name, email, phone, address, location, guests, arrivals,leaving) VALUES ('$name','$email','$phone','$address','$location','$guests','$arrivals','$leaving')";
+       $res=mysqli_query($conn,$qry);
+	   
+	   if(!$res){
+
+		   echo "<script>alert('Something Wrong.')</script>";
+	   }else{
+		   $name="";
+             $email="";
+             $phone="";
+             $address="";
+             $location="";
+             $guests="";
+             $arrivals="";
+             $leaving="";
+           
+		   echo "<script>alert('Inserted Succesfully.')</script>";
+             		   
+		    
+	   }
+	   
+	   
+ 
+ 
+
+
+?>
